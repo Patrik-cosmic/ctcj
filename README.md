@@ -16,7 +16,7 @@
         ```
     - Linux 😃
          ``` bash
-        source name_of_the_env\Scripts\activate
+        source name_of_the_env/bin/activate
         ```
 3. Deactivate virual environment.
 ``` bash
