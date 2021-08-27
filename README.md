@@ -9,6 +9,7 @@
 2. Activate virual env.
 
     - Windows
+    
         ``` bash
         name_of_the_env\Scripts\activate
         ```
