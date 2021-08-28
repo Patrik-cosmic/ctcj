@@ -51,8 +51,7 @@
 ``` python
 var = some_value_of_some_valid_type
 
-1: case sensitive ('name' is not 'Name' or 'NAME' 
-   or any combination of 'Name')
+1: case sensitive ('name' is not 'Name' or 'NAME' or 'nAME' etc)
 
 2: must_contains (a-z)(A-Z)(0-9)(_)
         a. must start with (a-z)(A_Z)(_)
