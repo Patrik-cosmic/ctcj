@@ -10,10 +10,10 @@ print('Hello') # this one is good
 
 2: must_contains (a-z)(A-Z)(0-9)(_)
         - must start with (a-z)(A_Z)(_)
-        2name = X
+        2name = ❌ 
         _name = 🆗
-        name = 🆗
-        Name = 🆗
+        name  = 🆗
+        Name  = 🆗
         Name2 = 🆗
 
 
@@ -26,7 +26,7 @@ print('Hello') # this one is good
 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 
 'yield']
 
-     pass = 12 X
+     pass = 12 ❌ 
      pass123 = 🆗
 
 4:   1: _var     ('Internal use or private)

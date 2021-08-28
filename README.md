@@ -46,3 +46,45 @@
 ``` bash
     git clone https://github.com/Patrik-cosmic/ctcj.git
 ```
+
+## Variable / Identifier
+``` python
+var = some_value_of_some_valid_type
+
+1: case sensitive ('name' is not 'Name' or 'NAME' 
+   or any combination of 'Name')
+
+2: must_contains (a-z)(A-Z)(0-9)(_)
+        a. must start with (a-z)(A_Z)(_)
+        
+        2name = ❌
+        _name = 🆗
+        name  = 🆗
+        Name  = 🆗
+        Name2 = 🆗
+
+
+3: can't be keywords 
+
+    ['False', 'None', 'True', 'and', 'as', 'assert', 
+'break', 'class', 'continue', 'def', 'del', 'elif', 
+'else', 'except', 'finally', 'for', 'from', 'global',
+'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not',
+'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 
+'yield']
+
+     pass = ❌ 
+     pass123 = 🆗
+
+
+5:  lower_case, snake_case (date_of_birth)
+
+ - Type 
+
+     1: _var     ('Internal use or private)
+
+     2: __var    ('class specific')
+
+     3: __var__  ('system-defined')
+
+```
