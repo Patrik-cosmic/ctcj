@@ -39,6 +39,10 @@
 ``` bash
     pip freeze > requirements.txt 
 ```
+4. Install from requirments.txt
+``` bash
+    pip install -r requirments.txt
+```
 
 ## Github -> Your computer
 
