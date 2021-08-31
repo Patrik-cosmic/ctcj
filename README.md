@@ -30,19 +30,26 @@
     pip install lib_name
 ```
 
-2. Check all the libraries and the version.
+2. Uninstall library.
+``` bash
+    pip uninstall lib_name
+```
+
+3. Install all from requirments.txt
+``` bash
+    pip install -r requirments.txt
+```
+
+4. Check all the libraries and the version.
 ``` bash
     pip list
 ```
 
-3. Create requirements.txt 
+5. Create requirements.txt 
 ``` bash
     pip freeze > requirements.txt 
 ```
-4. Install from requirments.txt
-``` bash
-    pip install -r requirments.txt
-```
+
 
 ## Github -> Your computer
 
