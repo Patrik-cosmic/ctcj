@@ -203,6 +203,6 @@ var = dict()
 # x, a, b = 10, (20, 40) # this will cause error
 # a, b = (10, 20, 30) # this too will causse an error
 
-numbers = [1, 2, 4, 5]
-for index, number in enumerate(numbers, start=10):
-   print(f'Index is : {index} and the value is : {number}')
+# numbers = [1, 2, 4, 5]
+# for index, number in enumerate(numbers, start=10):
+#    print(f'Index is : {index} and the value is : {number}')
