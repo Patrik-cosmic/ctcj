@@ -39,7 +39,7 @@
 # )
 
 # days[8][4] = 99
-print(days)
+# print(days)
 
 # print(days.count('Fri'))
 # position = days.index([1, 2, 3, 4, 5, 6, 7, 8])
