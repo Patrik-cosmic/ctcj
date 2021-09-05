@@ -176,11 +176,21 @@ var = dict()
 #     # Index is : ___ and the value is ___
 #     print(f'Index is : {index} and the value is : {value}')
 
+# database = dict()
+# database['Name'] = ['Suman', 'Patrik', 'Foo', 'Bar']
 
 # database = {
 #     'Name': ['Suman', 'Patrik', 'Foo', 'Bar'],
-#     'age':[100, 100, 20, 30]
+#     'age':[100, 100, 20, 30],
+#      12 : '2012'
 # }
+
+# print(database['Name'][2])
+# print(database['Name'])
+# print(database[12])
+# print(database.keys())
+# print(database.values())
+# print(database.items())
 
 # # a, b = 10, 20
 # # a, b = (10, 20)
