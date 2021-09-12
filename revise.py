@@ -46,13 +46,52 @@
 #     else:
 #         print("The key tech is not present \n")
 
+# info_suman = {
+#     "name": 'Suman',
+#     "id": 2,
+#     "dept": 'M.Sc.'
+# }
+# info(**info_suman)
+
+# print(info_suman)
+
+# print(**info_suman) # error
+
+# Solution 
+# def test(id, dept, name):
+#     print(name)
+#     print(id)
+#     print(dept)
+# test(**info_suman)
+# print(*info_suman)
+
+
+# def greet(message, name):
+#     print(f'{message} {name}')
+
+
+# greet(name='Suman',message='Good morning')
+
+
+
 
 # info(name='Suman De', id = 2, dept = 'M.Sc.')
 # info(name='Patrik Dark', id=102, dept='Full stack', tech=['Python','Django','React','PGSQL'], salary=9999999, exp=6)
 
 # def func_name(*args, **kwargs):
 #     print(args)
+#     print(sum(args))
+#     print(args.index(3))
+
 #     print(kwargs)
+#     print(kwargs.keys())
+#     for key, value in kwargs.items():
+#         print(f'Key is: {key} and the value is: {value}')
 
 # func_name(1, 2, 3, 4, 5, name = 'Suman De', computer = 'Laptop')
 # func_name(1, 2, 3, 4, 5, name = 'Suman De', computer = 'Laptop', 9) # home task about this error
+
+
+
+# numbers = [1,]
+# print(type(numbers))
