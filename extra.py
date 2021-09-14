@@ -19,9 +19,6 @@
 # print(result)
 # print(result2)
 
-
-
-
 num = 45
 
 print(id(num))
